@@ -1,0 +1,22 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">API</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+	    <div type="metatext">
+            <p>Die Daten der Tagebücher Staribachers können über eine API (Application Programming Interface) systematisch abgerufen werden. Dafür wurde das <target ref="https://www.openarchives.org/pmh/">Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH)</target> implementiert. Diesem Protokoll entsprechend werden unter dem Link <target ref="https://dse-static-oai-pmh.acdh-dev.oeaw.ac.at/staribacher/oai-pmh?verb=ListRecords">https://dse-static-oai-pmh.acdh-dev.oeaw.ac.at/staribacher/oai-pmh?verb=ListRecords</target> die Titel und die Links zu allen Tagebucheinträgen gelistet.</p>
+	    </div>
+        </body>
+    </text>
+</TEI>
